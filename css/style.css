@@ -1,0 +1,56 @@
+header {
+    padding-top: 7rem;
+    padding-bottom: 7rem;
+}
+
+header.masthead {
+    background-image: url('../img/header-bg.jpg');
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center center;
+    background-size: cover;
+}
+
+.section-padding {
+    padding-top: 7rem;
+}
+
+.section-margin {
+    margin-top: 7rem;
+}
+
+.card-item {
+    max-width: 25rem;
+}
+
+.text-href {
+    color: inherit;
+}
+
+.showcase-text {
+    padding: 7rem;
+}
+
+.showcase-img {
+    min-height: 25rem;
+    background-size: cover;
+}
+
+.features {
+    background: #2b5876;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #4e4376, #2b5876);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #4e4376, #2b5876); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.feature-about {
+    color: #ccc;
+}
+
+.testimonial-item {
+    max-width: 18rem;
+}
+
+.testimonial-item img {
+    max-width: 12rem;
+    box-shadow: 0 5px 5px 0 #adb5bd;
+}
