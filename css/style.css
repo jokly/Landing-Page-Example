@@ -41,7 +41,7 @@ header.masthead {
     background-size: cover;
 }
 
-.features {
+.gradient-bg {
     background: #0058b6;  /* fallback for old browsers */
     background: -webkit-linear-gradient(to right, #4e4376, #0058b6);  /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to right, #4e4376, #0058b6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
@@ -60,9 +60,25 @@ header.masthead {
     box-shadow: 0 5px 5px 0 #adb5bd;
 }
 
+#carouselComments img {
+    max-width: 5rem;
+}
+
+#carouselComments .carousel-control-prev-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23919191' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E") !important;
+}
+
+#carouselComments .carousel-control-next-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23919191' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E") !important;
+}
+
 @media screen and (max-width: 991px) {
     header .row {
         max-width: 25rem;
+        text-align: center;
+    }
+
+    #carouselComments {
         text-align: center;
     }
 }
