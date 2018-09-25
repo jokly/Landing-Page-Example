@@ -76,6 +76,27 @@ iframe {
     height: 20rem;
 }
 
+footer ul li {
+    padding-top: 0.5rem;
+}
+
+footer ul a {
+    color: #fff;
+}
+
+footer ul a:hover {
+    color: #c2c2c2;
+    text-decoration: none;
+}
+
+.social-icon {
+    font-size: 3rem;
+}
+
+.footer-block {
+    max-width: 25rem;
+}
+
 @media screen and (max-width: 991px) {
     header .row {
         max-width: 25rem;
@@ -84,5 +105,10 @@ iframe {
 
     #carouselComments {
         text-align: center;
+    }
+
+    .footer-block {
+        text-align: center;
+        margin-bottom: 3rem;
     }
 }
